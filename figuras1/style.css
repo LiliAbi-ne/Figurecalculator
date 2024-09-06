@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(157, 231, 231); 
+}
+
+header {
+    text-align: center;
+    width: 100%; 
+    padding: 10px; 
+}
+
+main {
+    background-color: aliceblue; 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    max-width: 600px; /* Limita el ancho del formulario para un mejor enfoque */
+    width: 100%;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none; /* Elimina los puntos de las listas */
+    margin: 20px 0;
+    padding: 20px;
+    background-color: aliceblue; 
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+}
+
+li {
+    margin-bottom: 10px; /* Añade espacio entre elementos de la lista */
+}
+
+h3 {
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
